@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="125sp">
+
+    <ImageView
+        android:id="@+id/ivCaratula"
+        android:layout_width="179dp"
+        android:layout_height="114dp"
+        app:srcCompat="@drawable/iconoandroid" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombreListado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Nombre"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvPlataformaListado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Plataforma"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvGeneroListado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Genero"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="97dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Nota:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvNotaListado"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Nota"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
